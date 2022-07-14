@@ -6206,11 +6206,14 @@ h5,
   }
 
   .navbar-toggler {
-    padding-right: 40px !important;
+    /* padding-right: 40px !important; */
   }
 
   .responsive-header {
     margin-top: 10px;
+  }
+  .page_sub_heading {
+    font-size: 19px;
   }
 }
 

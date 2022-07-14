@@ -55,14 +55,14 @@
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
   <script async="" src="{{ asset('frontend/js') }}"></script>
   <script>
-  $(document).ready(function() {
+    $(document).ready(function() {
       var owl = $('.owl-carousel');
       owl.owlCarousel({
-          items:4,
+          items:3,
           loop:true,
           margin:10,
           autoplay:true,
-          lazyLoad: true,
+          // lazyLoad: true,
           autoplayTimeout:2500,
           autoplayHoverPause:true
       });
@@ -78,6 +78,7 @@
       });
 
     });
+    
 
 
 

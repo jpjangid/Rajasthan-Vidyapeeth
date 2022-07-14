@@ -63,7 +63,7 @@
   </div>
 </section>
 <!-- marquee -->
-<div style="background: #ffdbc4; color:#597cab">
+<div style="background: #ffdbc4; color:#597cab" class="d-flex align-items-center">
   <marquee class="font-weight-bold">Admission Alert!! Applications are now open for B.Sc. Agriculture</marquee>
 </div>
 <!-- Courses deatils -->
@@ -493,7 +493,7 @@
           </div>
         </div>
         <div class="col-lg-8 col-12">
-        <h2 class="news_heading1 text-uppercase mb-3 mt-3 font-weight-bold">View Gallery</h2>
+          <h2 class="news_heading1 text-uppercase mb-3 mt-3 font-weight-bold">View Gallery</h2>
           <div class="row m-0">
             <div class="gallery_image col-lg-4 col-md-6 col-12">
               <img src="{{ asset('frontend/images/university.jpg') }}" alt="">
@@ -507,8 +507,6 @@
             <div class=" gallery_image col-lg-4 col-md-6 col-12">
               <img src="https://jessecollege.com/wp-content/uploads/2018/03/dummy-inner.jpg" alt="" >
             </div>
-          <!-- </div>
-          <div class="row m-0"> -->
             <div class="gallery_image col-lg-4 col-md-6 col-12">
               <img src="{{ asset('frontend/images/college.png') }}" alt="" >
             </div>

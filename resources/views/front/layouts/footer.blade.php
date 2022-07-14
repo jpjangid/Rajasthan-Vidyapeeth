@@ -1,3 +1,8 @@
+<section class="contact_section" style="background:whitesmoke;">
+  <div class="container">
+    <div class="py-1 text-right">For any query please connect : <i class="fa fa-envelope mr-1"></i>dcsit.jrnrvu@gmail.com</div>
+  </div>
+</section>
 <footer class="footer-section">
     <div class="container-wrap">
       <div class="row no-gutters">
