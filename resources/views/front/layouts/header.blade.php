@@ -59,9 +59,8 @@ $colleges = College::where(['status' => 0,'flag' => 0])->with('departments')->ge
             </a>
           </li>
           <div class="menu-content">
-            <div class="row">
+            <div class="row m-0">
               <div class="column">
-                
                 <a href="{{ url('recruitment') }}">Recruitment</a>
               </div>
             </div>
@@ -74,10 +73,10 @@ $colleges = College::where(['status' => 0,'flag' => 0])->with('departments')->ge
             </a>
           </li>
           <div class="menu-content">
-            <div class="row">
+            <div class="row m-0">
               @foreach($colleges as $college)
               @if(!empty($college->departments) && count($college->departments) > 0)
-              <div class="column col-md-3">
+              <div class="column col-md-4">
                 <div class="menu-head">{{ $college->name }}</div>
                 @foreach($college->departments as $department)
                 <a style="text-transform: capitalize !important;" href="{{ route('front.department',['department' => $department->slug]) }}">{{ strtolower($department->name) }}</a>
@@ -92,7 +91,7 @@ $colleges = College::where(['status' => 0,'flag' => 0])->with('departments')->ge
         <div class="mega-menu">
           <li class="menubtn"><a class="mega-a" href="">Media<i class="fa fa-caret-down ml-1"></i></a></li>
           <div class="menu-content">
-            <div class="row">
+            <div class="row m-0">
               <div class="column">
                 <div class="menu-head">JRNRV Media</div>
                 <a href="{{ url('news-events') }}">News & Events</a>
