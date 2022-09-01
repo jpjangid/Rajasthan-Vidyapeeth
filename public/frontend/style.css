@@ -118,7 +118,7 @@
 }
 
 .short-column-1 {
-    /* background-color: #597cab; */
+    background-color: #597cab;
     color: white !important;
     text-transform: uppercase;
 }
@@ -134,7 +134,7 @@
     background-color: #8baddc;
 }
 .short-column-2 {
-    /* background-color: #8baddc; */
+    background-color: #8baddc;
     color: white !important;
     text-transform: uppercase;
 }
